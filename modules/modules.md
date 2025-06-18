@@ -23,6 +23,8 @@
 5. Team Collaboration
 * Different team members can own different modules (like networking team owns VPC module, app team owns EC2 module).
 
+6. Consistance Infra
+
 
 ## 🛠️ Real-Time Example:
 Let’s say your project has:
