@@ -1,5 +1,5 @@
 # What are Terraform Modules
-* Terraform module is collection of terraform configuration files that are gouped together to create reusable infra.
+* Terraform module is collection of terraform configuration files that are grouped together to create reusable infra.
 * It's like a templates you can call it wherever you want, instead of copying-pasting the same code again and again.
 * It help us to build infrastructure faster, cleaner, and smarter."
 
