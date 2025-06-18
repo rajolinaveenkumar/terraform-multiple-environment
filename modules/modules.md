@@ -9,19 +9,19 @@
 
 ## Real-Time Advantages of Using Modules
 1. Reusability
-You write once, use anywhere — no need to duplicate code.
+* You write once, use anywhere — no need to duplicate code.
 
 2. Consistency
-All environments (dev, staging, prod) follow the same structure — less chance of mistakes.
+* All environments (dev, staging, prod) follow the same structure — less chance of mistakes.
 
 3. Easier to Maintain
-Update a module in one place, and all the environments get the fix — saves time and avoids human errors.
+* Update a module in one place, and all the environments get the fix — saves time and avoids human errors.
 
 4. Separation of Concerns
-Each module focuses on a specific task: VPC, EC2, RDS, ALB, etc. Makes the code clean and understandable.
+* Each module focuses on a specific task: VPC, EC2, RDS, ALB, etc. Makes the code clean and understandable.
 
 5. Team Collaboration
-Different team members can own different modules (like networking team owns VPC module, app team owns EC2 module).
+* Different team members can own different modules (like networking team owns VPC module, app team owns EC2 module).
 
 
 ## 🛠️ Real-Time Example:
