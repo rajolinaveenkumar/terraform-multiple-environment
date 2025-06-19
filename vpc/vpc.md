@@ -1,4 +1,4 @@
-### Basic VPC Components (with Real-Time Meaning)
+# Basic VPC Components (with Real-Time Meaning)
 
 | Component                  | Real-Time Use                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------- |
