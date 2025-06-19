@@ -11,3 +11,11 @@
 | **NACLs (Network ACLs)**   | Optional firewall at subnet level. Stateless and used for extra filtering.                              |
 | **VPC Peering**            | Connects 2 VPCs privately (within or across AWS accounts). No need for internet.                        |
 | **VPC Endpoints**          | Lets you privately access AWS services (like S3, DynamoDB) from inside VPC, without using the internet. |
+
+
+### Real Use Cases
+* Dev environment → One VPC per dev team with isolated subnets
+* Prod → VPC with strict security, private subnets for RDS, public only for NGINX or ALB
+* Microservices → Multiple VPCs peered together or connected via Transit Gateway
+* SSM Session Manager → Used to SSH into private EC2 instances without public IP
+
