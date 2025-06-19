@@ -32,3 +32,5 @@
 | **NACLs (Network ACLs)**   | Optional **firewalls at subnet level**. Unlike Security Groups, they are **stateless** — means incoming and outgoing rules must be configured separately. You mostly use them for **extra filtering** or compliance rules.                                 |
 | **VPC Peering**            | Used when you want **two VPCs to talk to each other** — without using the internet. Good for internal communication between environments (e.g., dev ↔ prod, or between AWS accounts).                                                                      |
 | **VPC Endpoints**          | Let’s say your EC2 needs to access **S3 or DynamoDB** — instead of using internet or NAT Gateway, you can create a **VPC endpoint** and access it **privately, securely, and faster**. Saves cost and is more secure.                                      |
+
+
